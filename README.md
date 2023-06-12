@@ -5,6 +5,7 @@ Custom Python tools for esri ArcGIS Pro software.
 
 - [Backup AGOL Services Tool](#AGOL-Services-Tool)
 - [APRX Data Lister Tool](#APRX-Data-Lister-Tool)
+- [Export GeoPackage Tool](#APRX-Data-Lister-Tool)
 - [Geoprocessing Metadata Stripper Tool](#Geoprocessing-Metadata-Stripper-Tool)
 
 ## Backup AGOL Services Tool
@@ -54,6 +55,14 @@ Example csv output. This allows for inspection of broken links or where layers p
 <img src="img/aprx_lister_output.JPG">
 
 <hr>
+
+## Export GeoPackage Tool
+
+### Purpose
+Exports or or more featureclasses or shapefiles as a GeoPackage file format using the same name as the input featureclass or shapefile.
+
+### To Use
+Open tool in ArcGIS Pro. Drag and drop features from catalog window. Accepts multiple files. Toggle export metadata option if needed.
 
 ## Geoprocessing Metadata Stripper Tool
 
