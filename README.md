@@ -59,7 +59,7 @@ Example csv output. This allows for inspection of broken links or where layers p
 ## Export GeoPackage Tool
 
 ### Purpose
-Exports or or more featureclasses or shapefiles as a GeoPackage file format using the same name as the input featureclass or shapefile.
+Exports or or more featureclasses or shapefiles as a [GeoPackage](https://www.esri.com/arcgis-blog/products/product/data-management/how-to-use-ogc-geopackages-in-arcgis-pro/) file format using the same name as the input featureclass or shapefile.
 
 ### To Use
 Open tool in ArcGIS Pro. Drag and drop features from catalog window. Accepts multiple files. Toggle export metadata option if needed.
