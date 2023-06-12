@@ -64,6 +64,8 @@ Exports or or more featureclasses or shapefiles as a GeoPackage file format usin
 ### To Use
 Open tool in ArcGIS Pro. Drag and drop features from catalog window. Accepts multiple files. Toggle export metadata option if needed.
 
+<hr>
+
 ## Geoprocessing Metadata Stripper Tool
 
 ### Purpose
