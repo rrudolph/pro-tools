@@ -7,6 +7,7 @@ Custom Python tools for esri ArcGIS Pro software.
 - [APRX Data Lister Tool](#APRX-Data-Lister-Tool)
 - [Export GeoPackage Tool](#APRX-Data-Lister-Tool)
 - [Geoprocessing Metadata Stripper Tool](#Geoprocessing-Metadata-Stripper-Tool)
+- [Zip Featureclasses for AppStream](#Zip-Featureclasses-for-AppStream
 
 ## Backup AGOL Services Tool
 
@@ -79,3 +80,10 @@ Example GP Strip tool interface:<br>
 
 Example GP Strip tool output:<br>
 <img src="img/strip_gp_metadata_results.png" width="300">
+
+## Zip Featureclasses for AppStream
+### Purpose
+Zip one or more featureclasses into a time-stamped zip file that contains a geodatabase.  Makes it easy to package up data for transfer to AppStream, since that can only be typically done through the web interface.
+
+### To Use
+Open tool in ArcGIS Pro. Drag and drop features from catalog window. Accepts multiple files. Specify an output folder.  Output folder will look something like  `AppStream_Staging_2023_08_14_17_28_53.gdb.zip`<br>
