@@ -5,7 +5,7 @@ Custom Python tools for esri ArcGIS Pro software.
 
 - [Backup AGOL Services Tool](#AGOL-Services-Tool)
 - [APRX Data Lister Tool](#APRX-Data-Lister-Tool)
-- [Export GeoPackage Tool](#APRX-Data-Lister-Tool)
+- [Export GeoPackage Tool](#Export-GeoPackage-Tool)
 - [Geoprocessing Metadata Stripper Tool](#Geoprocessing-Metadata-Stripper-Tool)
 - [Zip Featureclasses for AppStream](#Zip-Featureclasses-for-AppStream)
 
