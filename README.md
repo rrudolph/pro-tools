@@ -5,7 +5,7 @@ Custom Python tools for esri ArcGIS Pro software.
 
 - [Backup AGOL Services Tool](#backup-agol-services-tool)
 - [APRX Data Lister Tool](#aprx-data-lister-tool)
-- [Export GeoPackage Tool](#export-geopackage-tool)
+- [Export Metadata or GeoPackage](#export-metadata-or-geopackage)
 - [Geoprocessing Metadata Stripper Tool](#geoprocessing-metadata-stripper-tool)
 - [Zip Featureclasses for AppStream](#zip-featureclasses-for-appstream)
 
@@ -57,10 +57,10 @@ Example csv output. This allows for inspection of broken links or where layers p
 
 <hr>
 
-## Export GeoPackage Tool
+## Export Metadata or GeoPackage
 
 ### Purpose
-Exports one or more featureclasses or shapefiles as a [GeoPackage](https://www.esri.com/arcgis-blog/products/product/data-management/how-to-use-ogc-geopackages-in-arcgis-pro/) file format using the same name as the input featureclass or shapefile.
+Exports one or more featureclasses or shapefiles as a ISO19115-3 or FGDC CSDGM metadata, and and optional [GeoPackage](https://www.esri.com/arcgis-blog/products/product/data-management/how-to-use-ogc-geopackages-in-arcgis-pro/) file format using the same name as the input featureclass or shapefile. Also an option for stripping the whitespace from the filename upon output. 
 
 ### To Use
 Open tool in ArcGIS Pro. Drag and drop features from catalog window. Accepts multiple files. Toggle export metadata option if needed.
