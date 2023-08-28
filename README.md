@@ -60,7 +60,7 @@ Example csv output. This allows for inspection of broken links or where layers p
 ## Export Metadata or GeoPackage
 
 ### Purpose
-Exports one or more featureclasses or shapefiles as a ISO19115-3 or FGDC CSDGM metadata, and optional [GeoPackage](https://www.esri.com/arcgis-blog/products/product/data-management/how-to-use-ogc-geopackages-in-arcgis-pro/) file format using the alias of the input featureclass or shapefile. If no alias is available it will use the featureclass name. Also an option for stripping the whitespace from the filename upon output. 
+Exports one or more featureclasses or shapefiles as a ISO19115-3 or FGDC CSDGM metadata, and optional [GeoPackage](https://www.esri.com/arcgis-blog/products/product/data-management/how-to-use-ogc-geopackages-in-arcgis-pro/) file format using the alias of the input featureclass or shapefile. If no alias is available it will use the featureclass name. Also an option for stripping the whitespace from the filename upon output. Optionally exports an html version of FGDC metadata (if chosen) as an html file using the [USGS mp.exe](https://geology.usgs.gov/tools/metadata/tools/doc/mp.html) tool. 
 
 ### To Use
 Open tool in ArcGIS Pro. Drag and drop features from catalog window. Accepts multiple files. Toggle export metadata option if needed.
