@@ -1,5 +1,5 @@
 # pro-tools
-Custom Python tools for esri ArcGIS Pro software.
+Custom Python tools for esri ArcGIS Pro software. *Note: This repo was recently refactored to a python toolbox. Please report any bugs.*
 
 ## Contents
 
