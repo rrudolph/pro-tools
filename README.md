@@ -3,14 +3,14 @@ Custom Python tools for esri ArcGIS Pro software. *Note: This repo was recently 
 
 ## Contents
 
-- [Backup AGOL Services Tool](#backup-agol-services-tool)
-- [APRX Data Lister Tool](#aprx-data-lister-tool)
+- [Backup AGOL Services](#backup-agol-services)
+- [APRX Data Lister](#aprx-data-lister)
 - [Export Metadata or GeoPackage](#export-metadata-or-geopackage)
-- [Geoprocessing Metadata Stripper Tool](#geoprocessing-metadata-stripper-tool)
+- [Strip Geoprocessing Metadata](#strip-geoprocessing-metadata)
 - [Zip Featureclasses for AppStream](#zip-featureclasses-for-appstream)
 - [Print Bounding Box](#print-bounding-box)
 
-## Backup AGOL Services Tool
+## Backup AGOL Services
 
 ### Purpose
 Package an ArcGIS Online or Portal feature service as a zipped file geodatabase with a time stamp and username in the filename. It can also export as a shp or geojson file. The file is temporarily staged on the user's AGOL contents but is removed once downloaded. 
@@ -38,7 +38,7 @@ Example tool file output:<br>
 
 <hr>
 
-## APRX Data Lister Tool
+## APRX Data Lister
 
 ### Purpose
 Walk all maps in an ArcGIS Pro .aprx file and export to csv the layer names, layer data sources, projection, and other useful info about all layers in all maps. Since the exact file path of layers in ArcGIS Pro project is not always apparent or easy to view in the context of the entire map frame, this tool is useful for inspecting an .aprx file with a wide range of data sources.
@@ -68,7 +68,7 @@ Open tool in ArcGIS Pro. Drag and drop features from catalog window. Accepts mul
 
 <hr>
 
-## Geoprocessing Metadata Stripper Tool
+## Strip Geoprocessing Metadata Stripper
 
 ### Purpose
 Esri defaults to keeping geoprocessing metadata with the file even when exported, which may have sensitive data like file paths and other geoprocessing items. This tool strips geoprocessing metadata from one or more featureclass or shapefiles. Removes GPHISTORY as described in the deleteContent section of the [online reference](https://pro.arcgis.com/en/pro-app/latest/arcpy/metadata/metadata-class.htm). Optionally deletes THUMBNAIL, and ENCLOSED_FILES.
