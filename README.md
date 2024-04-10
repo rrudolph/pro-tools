@@ -8,6 +8,7 @@ Custom Python tools for esri ArcGIS Pro software. *Note: This repo was recently 
 - [Export Metadata or GeoPackage](#export-metadata-or-geopackage)
 - [Geoprocessing Metadata Stripper Tool](#geoprocessing-metadata-stripper-tool)
 - [Zip Featureclasses for AppStream](#zip-featureclasses-for-appstream)
+- [Print Bounding Box](#print-bounding-box)
 
 ## Backup AGOL Services Tool
 
@@ -87,3 +88,11 @@ Zip one or more featureclasses into a time-stamped zip file that contains a geod
 
 ### To Use
 Open tool in ArcGIS Pro. Drag and drop features from catalog window. Accepts multiple files. Specify an output folder.  Output folder will look something like  `AppStream_Staging_2023_08_14_17_28_53.gdb.zip`<br>
+
+## Print Bounding Box
+
+### Purpose
+Print the bounding box of a featureclass in WGS84 lat long decimal coordinates for entering into metadata.
+
+### To Use
+Enter one more featureclasses into the input field (drag and drop compatible).  Set the decimal places, if desired. <br>
