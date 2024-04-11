@@ -68,7 +68,7 @@ Open tool in ArcGIS Pro. Drag and drop features from catalog window. Accepts mul
 
 <hr>
 
-## Strip Geoprocessing Metadata Stripper
+## Strip Geoprocessing Metadata
 
 ### Purpose
 Esri defaults to keeping geoprocessing metadata with the file even when exported, which may have sensitive data like file paths and other geoprocessing items. This tool strips geoprocessing metadata from one or more featureclass or shapefiles. Removes GPHISTORY as described in the deleteContent section of the [online reference](https://pro.arcgis.com/en/pro-app/latest/arcpy/metadata/metadata-class.htm). Optionally deletes THUMBNAIL, and ENCLOSED_FILES.
