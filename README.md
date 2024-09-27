@@ -9,6 +9,7 @@ Custom Python tools for esri ArcGIS Pro software. *Note: This repo was recently 
 - [Strip Geoprocessing Metadata](#strip-geoprocessing-metadata)
 - [Zip Featureclasses for AppStream](#zip-featureclasses-for-appstream)
 - [Print Bounding Box](#print-bounding-box)
+- [Rename FC to be SDE Compliant](#rename-fc)
 
 ## Backup AGOL Services
 
@@ -96,3 +97,11 @@ Print the bounding box of a featureclass in WGS84 lat long decimal coordinates f
 
 ### To Use
 Enter one more featureclasses into the input field (drag and drop compatible).  Set the decimal places, if desired. <br>
+
+## Rename FC to be SDE Compliant
+### Purpose
+*Overwrites* a featureclass name to be compliant with the BOEM Pac naming scheme. Optionally and by default appends the feature type code and well known ID to the end of the file name.
+
+### To Use
+Open tool in ArcGIS Pro. Drag and drop features from catalog window. Apply appropriate dataset code and name.  Optionally append feature type code and well known ID. Example output name: `BIO_eBirdDatasetCamelCase_PT_4326`
+> - Note: Tool currently only works on vector data.  Future to do: add ability for raster datasets. 
