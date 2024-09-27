@@ -9,7 +9,7 @@ Custom Python tools for esri ArcGIS Pro software. *Note: This repo was recently 
 - [Strip Geoprocessing Metadata](#strip-geoprocessing-metadata)
 - [Zip Featureclasses for AppStream](#zip-featureclasses-for-appstream)
 - [Print Bounding Box](#print-bounding-box)
-- [Rename FC to be SDE Compliant](#rename-fc)
+- [Rename FC to be SDE Compliant](#Rename-fc-to-be-SDE-Compliant)
 
 ## Backup AGOL Services
 
