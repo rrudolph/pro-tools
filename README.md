@@ -111,4 +111,4 @@ Open tool in ArcGIS Pro. Drag and drop features from catalog window. Apply appro
 ## Add Area to Acres Value
 
 ### To Use
-Open tool in ArcGIS Pro. Drag and drop one or more polygon shapefiles or fetureclasses. Tool will add ACRES, SQUARE_KILOMETERS, SQUARE_MILES_INT fields to all featureclasses and calculating using the featureclasses native projection and using the geodesic calculation. 
+Open tool in ArcGIS Pro. Drag and drop one or more polygon shapefiles or fetureclasses. Tool will add ACRES, SQ_KM, SQ_MI fields to all featureclasses and calculating using the featureclasses native projection and using the geodesic calculation. 
