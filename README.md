@@ -10,6 +10,7 @@ Custom Python tools for esri ArcGIS Pro software. *Note: This repo was recently 
 - [Zip Featureclasses for AppStream](#zip-featureclasses-for-appstream)
 - [Print Bounding Box](#print-bounding-box)
 - [Rename FC to be SDE Compliant](#Rename-fc-to-be-SDE-Compliant)
+- [Add Area Values to Polygon](#Add-AreaValues-to-Polygon)
 
 ## Backup AGOL Services
 
@@ -105,3 +106,9 @@ Enter one more featureclasses into the input field (drag and drop compatible).  
 ### To Use
 Open tool in ArcGIS Pro. Drag and drop features from catalog window. Apply appropriate dataset code and name.  Optionally append feature type code and well known ID. Example output name: `BIO_eBirdDatasetCamelCase_PT_4326`
 > - Note: Tool currently only works on vector data.  Future to do: add ability for raster datasets. 
+
+
+## Add Area to Acres Value
+
+### To Use
+Open tool in ArcGIS Pro. Drag and drop one or more polygon shapefiles or fetureclasses. Tool will add ACRES, SQUARE_KILOMETERS, SQUARE_MILES_INT fields to all featureclasses and calculating using the featureclasses native projection and using the geodesic calculation. 
