@@ -105,7 +105,7 @@ Enter one more featureclasses into the input field (drag and drop compatible).  
 
 ### To Use
 Open tool in ArcGIS Pro. Drag and drop features from catalog window. Apply appropriate dataset code and name.  Optionally append feature type code and well known ID. Example output name: `BIO_eBirdDatasetCamelCase_PT_4326`
-> - Note: Tool currently only works on vector data.  Future to do: add ability for raster datasets. 
+ 
 
 
 ## Add Area to Acres Value
